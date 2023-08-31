@@ -14,9 +14,9 @@ You can see my CV in action at the link below:
 ## Structure of the repository
 
 - `index.html`: The main HTML file containing the structure of the portfolio website.
-- `style.css`: File containing the page styles and layout.
-- `script.js`: File containing the interactive elements of the page
-- `images/`: Directory containing the images used in the CV.
+- `css`: File containing the page styles and layout.
+- `js`: File containing the interactive elements of the page
+- `images/`: Directory containing the images used in the portfolio.
 - `tips/`: Directory with useful information.
 
 ## Technologies

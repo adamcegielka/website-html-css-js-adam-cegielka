@@ -29,23 +29,23 @@
 
 ## Git
 
-| Command                                                | Description                              |
-| :----------------------------------------------------- | :--------------------------------------- |
-| git log                                                | history repository changes               |
-| git log --oneline                                      | show commit history in a one-line format |
-| git revert                                             | back the effects of a previous commit    |
-| git clone <URL>                                        | copying a repository                     |
-| git merge <URL>                                        | connects the branch to the active branch |
-| git branch                                             | listing of available branches            |
-| git branch <branch-name>                               | creating a new branch                    |
-| git branch -d <branch-name>                            | branch removal                           |
-| git checkout <branch-name>                             | switch from one branch to another        |
-| git checkout -b <branch-name>                          | creates a new branch and goes to it      |
-| git push origin <branch-name>                          | pushing a branch to the repository       |
-| git commit --amend                                     | add changes to the last commit           |
-| git commit --amend -m "new message"                    | edit last comitet news                   |
-| echo "Hello, World!"                                   | simple text display                      |
-| echo "Some example text" >> index.txt                  | create a file with the text inside       |
+| Command                               | Description                              |
+| :------------------------------------ | :--------------------------------------- |
+| git log                               | history repository changes               |
+| git log --oneline                     | show commit history in a one-line format |
+| git revert                            | back the effects of a previous commit    |
+| git clone <URL>                       | copying a repository                     |
+| git merge <URL>                       | connects the branch to the active branch |
+| git branch                            | listing of available branches            |
+| git branch <branch-name>              | creating a new branch                    |
+| git branch -d <branch-name>           | branch removal                           |
+| git checkout <branch-name>            | switch from one branch to another        |
+| git checkout -b <branch-name>         | creates a new branch and goes to it      |
+| git push origin <branch-name>         | pushing a branch to the repository       |
+| git commit --amend                    | add changes to the last commit           |
+| git commit --amend -m "new message"   | edit last comitet news                   |
+| echo "Hello, World!"                  | simple text display                      |
+| echo "Some example text" >> index.txt | create a file with the text inside       |
 
 <br>
 
