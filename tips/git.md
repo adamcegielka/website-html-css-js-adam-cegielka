@@ -44,6 +44,8 @@
 | git push origin <branch-name>                          | pushing a branch to the repository       |
 | git commit --amend                                     | add changes to the last commit           |
 | git commit --amend -m "new message"                    | edit last comitet news                   |
+| echo "Hello, World!"                                   | simple text display                      |
+| echo "Some example text" >> index.txt                  | create a file with the text inside       |
 
 <br>
 
