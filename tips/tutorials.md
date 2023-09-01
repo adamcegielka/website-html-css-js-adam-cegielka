@@ -24,3 +24,4 @@
 ### Others:
 
 - [Placehold](https://placehold.co/)
+- [Pexels](https://www.pexels.com/)
