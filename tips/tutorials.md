@@ -25,3 +25,4 @@
 
 - [Placehold](https://placehold.co/)
 - [Pexels](https://www.pexels.com/)
+- [Icons8](https://icons8.com/)
