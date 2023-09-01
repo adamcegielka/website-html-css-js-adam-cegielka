@@ -20,3 +20,7 @@
 - [Kurs JavaScript dla super bohaterów](https://kursjs.pl/)
 - [Javascript Playground](https://playcode.io/)
 - [Learn JavaScript - w3schools.com](https://my-learning.w3schools.com/tutorial/js)
+
+### Others:
+
+- [Placehold](https://placehold.co/)
