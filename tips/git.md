@@ -29,23 +29,36 @@
 
 ## Git
 
-| Command                               | Description                              |
-| :------------------------------------ | :--------------------------------------- |
-| git log                               | history repository changes               |
-| git log --oneline                     | show commit history in a one-line format |
-| git revert                            | back the effects of a previous commit    |
-| git clone <URL>                       | copying a repository                     |
-| git merge <URL>                       | connects the branch to the active branch |
-| git branch                            | listing of available branches            |
-| git branch <branch-name>              | creating a new branch                    |
-| git branch -d <branch-name>           | branch removal                           |
-| git checkout <branch-name>            | switch from one branch to another        |
-| git checkout -b <branch-name>         | creates a new branch and goes to it      |
-| git push origin <branch-name>         | pushing a branch to the repository       |
-| git commit --amend                    | add changes to the last commit           |
-| git commit --amend -m "new message"   | edit last comitet news                   |
-| echo "Hello, World!"                  | simple text display                      |
-| echo "Some example text" >> index.txt | create a file with the text inside       |
+| Command                                                | Description                                     |
+| :----------------------------------------------------- | :---------------------------------------------- |
+| git log                                                | history repository changes                      |
+| git log --oneline                                      | show commit history in a one-line format        |
+| git log --stat                                         | details of the changes introduced               |
+| git show                                               | show detailed information on a given commit     |
+| git show <commit_ID>                                   | show detailed information on a given commit     |
+| git revert                                             | back the effects of a previous commit           |
+| git clone <URL>                                        | copying a repository                            |
+| git merge <URL>                                        | connects the branch to the active branch        |
+| git branch                                             | listing of available branches                   |
+| git branch <branch-name>                               | creating a new branch                           |
+| git branch -d <branch-name>                            | branch removal                                  |
+| git checkout <file-name>                               | restore file changes                            |
+| git checkout <branch-name>                             | switch from one branch to another               |
+| git checkout -b <branch-name>                          | creates a new branch and goes to it             |
+| git push origin <branch-name>                          | pushing a branch to the repository              |
+| git pull                                               | download the latest changes from the repository |
+| git commit --amend                                     | add changes to the last commit                  |
+| git commit --amend -m "new message"                    | edit last comitet news                          |
+| git config --global user.name "John Smith"             | global update name                              |
+| git config --global user.email "new_email@example.com" | global update email address                     |
+| git config user.email "John Smith"                     | update name in a specific repository            |
+| git config user.email "new_email@example.com"          | update email address in a specific repository   |
+| echo "Hello, World!"                                   | simple text display                             |
+| echo "Some example text" >> index.txt                  | create a file with the text inside              |
+| git mv page.html index.html                            | file renaming                                   |
+| git mv old_directory/ new_directory/                   | directory renaming                              |
+| git mv file.txt new_directory/                         | move file to another directory                  |
+| git init --help                                        | documentation                                   |
 
 <br>
 
