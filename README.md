@@ -16,6 +16,7 @@ You can see my CV in action at the link below:
 - `index.html`: The main HTML file containing the structure of the portfolio website.
 - `css`: Directory containing the page styles and layout.
 - `js`: Directory containing the interactive elements of the page
+- `icons/`: Directory containing the icons used in the portfolio.
 - `images/`: Directory containing the images used in the portfolio.
 - `tips/`: Directory with useful information.
 
@@ -23,7 +24,7 @@ You can see my CV in action at the link below:
 
 - HTML
 - CSS
-- JavaScript
+- JavaScript (including jQuery library)
 
 ## Contact
 
