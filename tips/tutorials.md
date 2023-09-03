@@ -29,3 +29,4 @@
 - [typed.js](https://github.com/mattboldt/typed.js)
 - [Flat UI Colors](https://flatuicolors.com/)
 - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
+- [easy-pie-chart](https://github.com/rendro/easy-pie-chart)
