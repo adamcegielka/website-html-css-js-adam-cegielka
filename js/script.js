@@ -29,4 +29,8 @@ $(document).ready(() => {
             }
         }
     });
+
+    $('.chart').easyPieChart({
+        //your options goes here
+    });
 });
