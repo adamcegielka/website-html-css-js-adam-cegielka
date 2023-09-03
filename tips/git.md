@@ -35,17 +35,17 @@
 | git log --oneline                                      | show commit history in a one-line format        |
 | git log --stat                                         | details of the changes introduced               |
 | git show                                               | show detailed information on a given commit     |
-| git show <commit_ID>                                   | show detailed information on a given commit     |
+| git show <I>commit_ID</I>                              | show detailed information on a given commit     |
 | git revert                                             | back the effects of a previous commit           |
-| git clone <URL>                                        | copying a repository                            |
-| git merge <URL>                                        | connects the branch to the active branch        |
+| git clone <I>URL</I>                                   | copying a repository                            |
+| git merge <I>URL</I>                                   | connects the branch to the active branch        |
 | git branch                                             | listing of available branches                   |
-| git branch <branch-name>                               | creating a new branch                           |
-| git branch -d <branch-name>                            | branch removal                                  |
-| git checkout <file-name>                               | restore file changes                            |
-| git checkout <branch-name>                             | switch from one branch to another               |
-| git checkout -b <branch-name>                          | creates a new branch and goes to it             |
-| git push origin <branch-name>                          | pushing a branch to the repository              |
+| git branch <I>branch-name</I>                          | creating a new branch                           |
+| git branch -d <I>branch-name</I>                       | branch removal                                  |
+| git checkout <I>file-name</I>                          | restore file changes                            |
+| git checkout <I>branch-name</I>                        | switch from one branch to another               |
+| git checkout -b <I>branch-name</I>                     | creates a new branch and goes to it             |
+| git push origin <I>branch-name</I>                     | pushing a branch to the repository              |
 | git pull                                               | download the latest changes from the repository |
 | git commit --amend                                     | add changes to the last commit                  |
 | git commit --amend -m "new message"                    | edit last comitet news                          |
