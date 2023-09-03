@@ -27,3 +27,4 @@
 - [Pexels](https://www.pexels.com/)
 - [Icons8](https://icons8.com/)
 - [typed.js](https://github.com/mattboldt/typed.js)
+- [Flat UI Colors](https://flatuicolors.com/)
