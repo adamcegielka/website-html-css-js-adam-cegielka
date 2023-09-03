@@ -31,6 +31,14 @@ $(document).ready(() => {
     });
 
     $('.chart').easyPieChart({
-        //your options goes here
+        easing: 'easeInOut',
+        barColor: '#e74c3c',
+        trackColor: false,
+        scaleColor: false,
+        lineWidth: 4,
+        size: 152,
+        onStep: function(from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+        }
     });
 });
