@@ -28,3 +28,4 @@
 - [Icons8](https://icons8.com/)
 - [typed.js](https://github.com/mattboldt/typed.js)
 - [Flat UI Colors](https://flatuicolors.com/)
+- [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
