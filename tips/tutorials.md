@@ -31,3 +31,4 @@
 - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
 - [easy-pie-chart](https://github.com/rendro/easy-pie-chart)
 - [Font Awesome](https://fontawesome.com/)
+- [CountUp](https://inorganik.github.io/countUp.js/)
