@@ -145,3 +145,14 @@ body {
     font-weight: 600;
     margin: 0;
 }
+
+.squareIcon {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+    color: #444;
+}
