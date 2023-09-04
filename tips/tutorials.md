@@ -32,3 +32,4 @@
 - [easy-pie-chart](https://github.com/rendro/easy-pie-chart)
 - [Font Awesome](https://fontawesome.com/)
 - [CountUp](https://inorganik.github.io/countUp.js/)
+- [Isotope](https://isotope.metafizzy.co/)
