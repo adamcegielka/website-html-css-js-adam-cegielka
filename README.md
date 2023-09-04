@@ -1,4 +1,5 @@
 # Adam Cegiełka - Portfolio Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/98de4924-0ce5-4cf8-9975-2fe1e11ece99/deploy-status)](https://app.netlify.com/sites/adamcegielka/deploys)
 
 Welcome to my repository containing my interactive portfolio. This is the place where I showcase my skills, projects and achievements using HTML, CSS and JavaScript.
 
