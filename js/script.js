@@ -5,7 +5,7 @@ $(document).ready(() => {
     pagination: false,
   });
 
-  let typed = new Typed('.typed', {
+  const typed = new Typed('.typed', {
     strings: ['Automation Tester', 'Manual Tester', 'Paraglider Pilot'],
     typeSpeed: 70,
     loop: true,
