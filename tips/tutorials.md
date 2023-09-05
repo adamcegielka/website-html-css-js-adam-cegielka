@@ -34,3 +34,4 @@
 - [CountUp](https://inorganik.github.io/countUp.js/)
 - [Isotope](https://isotope.metafizzy.co/)
 - [Fancybox](http://fancybox.net/)
+- [Bootstrap - Navbar navigation](https://getbootstrap.com/docs/4.0/components/navbar/)
