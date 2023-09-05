@@ -66,4 +66,6 @@ $(document).ready(() => {
 
   });
 
+  // $("[data-fancybox]").fancybox();
+
 });
