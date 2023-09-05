@@ -325,6 +325,7 @@ body {
     background-color: #34495e;
     padding: 20px 10px;
     z-index: 100;
+    width: 100%;
 }
 
 #navigation li {
@@ -343,4 +344,9 @@ body {
 .navbar-toggler-icon {
     background: url(../icons/menu.png);
     background-size: 100%;
+}
+
+.fixedNav #navigation {
+    position: fixed;
+    top: 0;
 }
