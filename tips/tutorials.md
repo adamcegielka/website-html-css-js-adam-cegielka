@@ -26,6 +26,7 @@
 - [Placehold](https://placehold.co/)
 - [Pexels](https://www.pexels.com/)
 - [Icons8](https://icons8.com/)
+- [Preloaders.net - Loading GIF, SVG & APNG](https://icons8.com/preloaders/)
 - [typed.js](https://github.com/mattboldt/typed.js)
 - [Flat UI Colors](https://flatuicolors.com/)
 - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
