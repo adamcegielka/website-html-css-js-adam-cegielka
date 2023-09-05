@@ -33,3 +33,4 @@
 - [Font Awesome](https://fontawesome.com/)
 - [CountUp](https://inorganik.github.io/countUp.js/)
 - [Isotope](https://isotope.metafizzy.co/)
+- [Fancybox](http://fancybox.net/)
