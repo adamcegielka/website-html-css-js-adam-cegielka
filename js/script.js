@@ -93,6 +93,15 @@ $(document).ready(() => {
     return false;
   });
 
+  $("#navigation li a").click(function(e) {
+    e.preventDefoult();
+
+    const targetElement = $(this).attr("href");
+    const targetPosition = $(targetElement).offset().top;
+    $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
+
+  });
+
   const nav = $("#navigation");
   const navTop = nav.offset().top;
 
@@ -100,7 +109,7 @@ $(document).ready(() => {
 
   function stickyNavigation() {
 
-    let body = $("body");
+    const body = $("body");
 
     if($(Window).scrollTop() >= navTop) {
       body.css("padding-top", nav.outerHeight() + "px");
