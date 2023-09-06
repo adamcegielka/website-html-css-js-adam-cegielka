@@ -68,6 +68,10 @@ body {
     max-width: 100%;
 }
 
+#about h4 {    
+    padding-top: 10px;
+}
+
 .skillSection,
 .contactSection {
     background-color: #34495e;
