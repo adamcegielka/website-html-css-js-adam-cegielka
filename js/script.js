@@ -21,7 +21,7 @@ $(document).ready(() => {
   });
 
   const typed = new Typed('.typed', {
-    strings: ['Automation Tester', 'Manual Tester', 'Paraglider Pilot'],
+    strings: ['Under Construction', 'Automation Tester', 'Under Construction', 'Manual Tester', 'Under Construction', 'Paraglider Pilot'],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
