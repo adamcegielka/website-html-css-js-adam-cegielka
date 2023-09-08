@@ -73,7 +73,8 @@ body {
 }
 
 .skillSection,
-.contactSection {
+.contactSection,
+.paraglidingSection {
     background-color: #34495e;
     color: #fff;
 }
@@ -353,4 +354,30 @@ body {
 .fixedNav #navigation {
     position: fixed;
     top: 0;
+}
+
+.career {    
+    padding-top: 20px;
+    color: #e74c3c;
+}
+
+.awards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.awards p {
+    text-align: left;
+    margin: 0;
+}
+
+.awards ul {
+    padding-left: 0;
+}
+
+.awards li {    
+    text-align: left; 
+    padding-top: 10px;
 }
