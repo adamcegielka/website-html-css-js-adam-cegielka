@@ -99,8 +99,13 @@ $(document).ready(() => {
     return false;
   });
 
-  $('#navigation li a').click(function (e) {
-    e.preventDefoult();
+  function closeNavbar() {
+    $('.navbar-collapse').collapse('hide');
+  }
+
+  $('#navigation li a').on('click', function(e) {
+    e.preventDefault();
+    closeNavbar();
 
     const targetElement = $(this).attr('href');
     const targetPosition = $(targetElement).offset().top;
@@ -115,7 +120,7 @@ $(document).ready(() => {
   function stickyNavigation() {
     const body = $('body');
 
-    if ($(Window).scrollTop() >= navTop) {
+    if ($(window).scrollTop() >= navTop) {
       body.css('padding-top', nav.outerHeight() + 'px');
       body.addClass('fixedNav');
     } else {
@@ -124,5 +129,4 @@ $(document).ready(() => {
     }
   }
 
-  // $("[data-fancybox]").fancybox();
 });
