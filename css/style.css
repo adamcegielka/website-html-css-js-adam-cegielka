@@ -183,6 +183,33 @@ body {
     background-color: #fff;
 }
 
+.mediaIcon {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    width: 40%;
+    height: 60px;
+    font-size: 80px;
+    margin-left: -20%;
+    color: #fff;
+}
+
+.mediaItem {
+    margin-top: 40px;
+    position: relative;
+}
+
+.mediaItem a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.mediaInnerContainer {
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+}
+
 .filter a {
     text-decoration: none;
     color: #bdc3c7;
