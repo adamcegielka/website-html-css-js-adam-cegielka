@@ -412,3 +412,39 @@ body {
     text-align: left; 
     padding-top: 10px;
 }
+
+.trophyGold {
+    text-align: center;
+    font-size: 50px;
+    color: #d4af37;
+}
+
+.trophySilver {    
+    text-align: center;
+    font-size: 50px;
+    color: #C0C0C0;
+}
+
+.trophyBronze {    
+    text-align: center;
+    font-size: 50px;
+    color: #cd7f32;
+}
+
+.medalGold {  
+    text-align: center;
+    font-size: 90px;
+    color: #d4af37;
+}
+
+.medalSilver {  
+    text-align: center;
+    font-size: 90px;
+    color: #C0C0C0;
+}
+
+.medalBronze {  
+    text-align: center;
+    font-size: 90px;
+    color: #cd7f32;
+}
