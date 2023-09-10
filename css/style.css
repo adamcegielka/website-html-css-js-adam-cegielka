@@ -433,17 +433,19 @@ body {
 
 .medalGold {  
     text-align: center;
-    font-size: 90px;
+    font-size: 120px;
     color: #d4af37;
 }
 
-.medalSilver {  
+.medalSilver {
+    padding-top: 60px;
     text-align: center;
     font-size: 90px;
     color: #C0C0C0;
 }
 
-.medalBronze {  
+.medalBronze {
+    padding-top: 60px;
     text-align: center;
     font-size: 90px;
     color: #cd7f32;
