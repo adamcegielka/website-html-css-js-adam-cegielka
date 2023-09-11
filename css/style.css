@@ -210,6 +210,25 @@ body {
     text-align: center;
 }
 
+.contactSection .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contactSection .col-3 {
+    flex: 0 0 calc(25% - 15px);
+    max-width: calc(25% - 15px);
+    margin-bottom: 30px;
+}
+
+@media (max-width: 575.98px) {
+    .contactSection .col-3 {
+        flex: 0 0 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+    }
+}
+
 .filter a {
     text-decoration: none;
     color: #bdc3c7;
