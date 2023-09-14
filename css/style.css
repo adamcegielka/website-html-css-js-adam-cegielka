@@ -88,6 +88,32 @@ body {
     padding-top: 20px;
 }
 
+.statsList {
+    position: relative;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+.statsList a {    
+    text-decoration: none;
+    color: #7f8c8d;
+}
+
+.statsList a:hover {
+    color: #34495e;
+}
+
+.statsList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.statsList li {    
+    display: block;
+    padding: 2px;
+}
+
 .chart {
     position: relative;
     width: 152px;
