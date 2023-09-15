@@ -79,13 +79,57 @@ body {
     color: #fff;
 }
 
-.skill {
-    text-align: center;
-    margin-left: 10px;
+.skillSquareItem {
+    margin-top: 90px;
+    position: relative;
 }
 
-.skill h4 {    
+.skillSquareInnerContainer {
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-top: none;
+}
+
+.skillSquareInnerContainer:before,
+.skillSquareInnerContainer:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 30%;
+    border-bottom: 2px solid #fff;
+}
+
+.skillSquareInnerContainer:before {
+    right: 0px;
+}
+
+.skillSquareInnerContainer:after {
+    left: 0px;
+}
+
+.skills {  
     padding-top: 20px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.skillSquareContent h4 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.skillSquareIcon {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+    color: #fff;
 }
 
 .statsList {
