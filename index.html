@@ -434,16 +434,16 @@
 
               <div class="item">
 
-                <img src="images/portfolio/ppg/thumbnails/ppg-02-square.jpg" srcset="images/portfolio/ppg/thumbnails/ppg-02-square.jpg 500w,
-                        images/portfolio/ppg/thumbnails/ppg-02-square-small.jpg 180w"
+                <img src="images/portfolio/tests/thumbnails/test-register-square.png" srcset="images/portfolio/tests/thumbnails/test-register-square.png 500w,
+                        images/portfolio/tests/thumbnails/test-register-square-small.png 180w"
                   sizes="(max-width: 768px) 180px, 500px" />
 
                 <div class="icons">
-                  <a href="images/portfolio/ppg/ppg-02.jpg" title="View image" class="openButton"
-                    data-fancybox="gallery" data-caption="Under Construction">
+                  <a href="images/portfolio/tests/test-register.png" title="View image" class="openButton"
+                    data-fancybox="gallery" data-caption="Playwright - User while Checkout - View video">
                     <i class="fa fa-search"></i>
                   </a>
-                  <a href="" target="_blank" class="projectLink">
+                  <a href="video/video-register-while-checkout.webm" id="videoLink" class="projectLink">
                     <i class="fa fa-link"></i>
                   </a>
                 </div>
@@ -855,6 +855,14 @@
       //
     });    
   </script>
+
+<script>
+  const videoLink = document.getElementById('videoLink');
+  videoLink.addEventListener('click', function (event) {
+     event.preventDefault();
+     window.open(this.href, 'VideoWindow', 'width=640,height=360');
+  });
+</script>
 
 </body>
 
