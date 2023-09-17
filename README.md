@@ -27,6 +27,7 @@ You can see my CV in action at the link below:
 
 - HTML
 - CSS
+- Bootstrap
 - JavaScript (including jQuery library)
 
 ## Contact
