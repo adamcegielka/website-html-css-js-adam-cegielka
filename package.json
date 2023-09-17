@@ -8,5 +8,20 @@
   },
   "dependencies": {
     "@playwright/test": "^1.38.0"
+  },
+  "scripts": {
+    "open:codegen": "npx playwright codegen http://adamcegielka.pl/",
+    "open:ui": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:chromium:headed": "npx playwright test --headed --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:firefox:headed": "npx playwright test --headed --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:webkit:headed": "npx playwright test --headed --project=webkit",
+    "report": "npx playwright show-report",
+    "prettier": "npx prettier --write .",
+    "lint": "eslint . --fix --max-warnings=0"
   }
 }
