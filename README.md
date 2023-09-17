@@ -19,6 +19,7 @@ You can see my CV in action at the link below:
 - `js`: Directory containing the interactive elements of the page
 - `icons/`: Directory containing the icons used in the portfolio.
 - `images/`: Directory containing the images used in the portfolio.
+- `video/`: Directory containing the films  used in the portfolio.
 - `tips/`: Directory with useful information.
 
 ## Technologies
