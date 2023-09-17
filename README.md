@@ -21,6 +21,7 @@ You can see my CV in action at the link below:
 - `images/`: Directory containing the images used in the portfolio.
 - `video/`: Directory containing the films  used in the portfolio.
 - `tips/`: Directory with useful information.
+- `tests/`: Website testing at Playwright.
 
 ## Technologies
 
