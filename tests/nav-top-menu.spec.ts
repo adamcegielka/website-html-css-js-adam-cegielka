@@ -29,4 +29,15 @@ test.describe('Test top navigation', () => {
     await page.locator('#stats').click();
     await expect(page.locator('#stats')).toBeInViewport();
   });
+
+  test('verification of contact locator', async ({ page }) => {
+    const elementId = 'paragliding';
+
+    await page.$eval(`#${elementId}`, (element) => {
+      element.scrollIntoView();
+    });
+    await expect(page.locator('#paragliding')).toBeInViewport();
+    await page.locator('#contact').click();
+    await expect(page.locator('#contact')).toBeInViewport();
+  });
 });
