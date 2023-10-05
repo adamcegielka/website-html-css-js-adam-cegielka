@@ -51,4 +51,15 @@ test.describe('Test top navigation', () => {
     await page.locator('#portfolio').click();
     await expect(page.locator('#portfolio')).toBeInViewport();
   });
+
+  test('verification of paragliding locator', async ({ page }) => {
+    const elementId = 'skills';
+
+    await page.$eval(`#${elementId}`, (element) => {
+      element.scrollIntoView();
+    });
+    await expect(page.locator('#skills')).toBeInViewport();
+    await page.locator('#paragliding').click();
+    await expect(page.locator('#paragliding')).toBeInViewport();
+  });
 });
