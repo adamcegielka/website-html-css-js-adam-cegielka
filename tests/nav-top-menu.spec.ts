@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Test top navigation', () => {
+test.describe.parallel('Test top navigation', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
   });
