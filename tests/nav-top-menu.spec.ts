@@ -40,4 +40,15 @@ test.describe('Test top navigation', () => {
     await page.locator('#contact').click();
     await expect(page.locator('#contact')).toBeInViewport();
   });
+
+  test('verification of portfolio locator', async ({ page }) => {
+    const elementId = 'about';
+
+    await page.$eval(`#${elementId}`, (element) => {
+      element.scrollIntoView();
+    });
+    await expect(page.locator('#about')).toBeInViewport();
+    await page.locator('#portfolio').click();
+    await expect(page.locator('#portfolio')).toBeInViewport();
+  });
 });
