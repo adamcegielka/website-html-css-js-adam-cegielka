@@ -5,7 +5,17 @@ test.describe('Test top navigation', () => {
     await page.goto('/');
   });
 
-  test('verification of locators', async ({ page }) => {
+  test('verification of locator', async ({ page }) => {
     await page.locator('#about').click();
+    await expect(page.locator('#about')).toBeInViewport();
+  });
+
+  test('verification of skills locator', async ({ page }) => {
+    await page.evaluate(() => {
+      window.scrollTo(0, document.body.scrollHeight);
+    });
+
+    await page.locator('#skills').click();
+    await expect(page.locator('#skills')).toBeInViewport();
   });
 });
