@@ -9,8 +9,8 @@ My portfolio is an interactive website that serves as a showcase for my skills a
 
 ## Preview
 
-You can see my CV in action at the link below:
-[adamcegielka.netlify.app](https://adamcegielka.netlify.app/)
+You can see my portfolio in action at the link below:
+[adamcegielka.pl](https://adamcegielka.pl/)
 
 ## Structure of the repository
 
