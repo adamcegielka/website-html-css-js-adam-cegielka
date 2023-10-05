@@ -18,4 +18,15 @@ test.describe('Test top navigation', () => {
     await page.locator('#skills').click();
     await expect(page.locator('#skills')).toBeInViewport();
   });
+
+  test('verification of stats locator', async ({ page }) => {
+    const elementId = 'trophy';
+
+    await page.$eval(`#${elementId}`, (element) => {
+      element.scrollIntoView();
+    });
+    await expect(page.locator('#trophy')).toBeInViewport();
+    await page.locator('#stats').click();
+    await expect(page.locator('#stats')).toBeInViewport();
+  });
 });
