@@ -1,4 +1,4 @@
-## Creating a repository on GitHub
+## HTML code template
 
 ```html
 <!doctype html>
